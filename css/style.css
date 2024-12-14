@@ -1,0 +1,73 @@
+@media (max-width: 600px) {
+  /* home section */
+  .home h1{
+    font-size: 30px;
+  }
+
+  .home p{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .home {
+    top: 100px;
+    left: 20px;
+  }
+  .outter-home {
+    height: 440px;
+  }
+  .btn {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .btn-1{
+    margin-right: 26px;
+  }
+
+  /* about section */
+  .about{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-1{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* service section */
+  
+  .services{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services-1 {
+    width: 100%;
+  }
+
+  /* photography section */
+
+  .photography{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .outter-photography{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .photography-1{
+    align-items: center;
+    margin-top: 30px;
+  }
+  .calendar{
+    padding-right: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
