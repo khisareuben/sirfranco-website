@@ -1,17 +1,21 @@
 {
   "builds": [
     {
-      "src": "css/**/*",
+      "src": "index.html",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "css"
+        "distDir": "."
       }
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/css/(.*)",
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
