@@ -38,7 +38,7 @@
 
   /* service section */
   
-  .cyber {
+/*   .cyber {
     left: 14px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -46,7 +46,7 @@
     margin: 0;
     width: 330px;
 
-  }
+  } */
 
   .services{
     display: grid;
